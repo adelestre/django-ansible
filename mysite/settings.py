@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-8pg6ws(wj#$73dzcgsc*aurkqs)4m6m7i*@)rm*8@#j+o78-2d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'testserver']
+ALLOWED_HOSTS = ['127.0.0.1', 'testserver', 'etud-kvm-adelestre.leria-etud.univ-angers.fr', 'etud-lxc-adelestre.leria-etud.univ-angers.fr']
 
+STATIC_ROOT = '/home/adelestre/mysite/static'
 
 # Application definition
 
